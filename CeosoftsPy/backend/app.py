@@ -9,8 +9,12 @@ db = SQLAlchemy(app)
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 
+@app.route('/')
+def home():
+    return "Hello, Flask!"
+
 from app import routes
-from app import app
+#from app import app  # ไม่จำเป็นต้องนำเข้า app ซ้ำ
 
 if __name__ == "__main__":
     app.run(debug=True)
