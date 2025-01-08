@@ -14,7 +14,7 @@ def register():
         flash('Your account has been created!', 'success')
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
-
+# เพิ่มเส้นทางสำหรับหน้าเข้าสู่ระบบ
 @app.route("/login", methods=['GET', 'POST'])
 def login():
     form = LoginForm()
@@ -22,7 +22,8 @@ def login():
         user = User.query.filter_by(email=form.email.data).first()
         if user and user.password == form.password.data:
             login_user(user)
-            return redirect(url_for('dashboard'))
+            flash('Login successful!', 'success')
+            return redirect(url_for('home'))
         else:
             flash('Login Unsuccessful. Please check email and password', 'danger')
     return render_template('login.html', title='Login', form=form)
