@@ -56032,5 +56032,11 @@ CeosoftsERP_CRM/
 
 อัพเดทโครงสร้าง 7 jan 2024 20.42
 frontend status >> แสดงเว็บได้ มี navber + sidebar + show drashboard แก้ให้เป็น Homepage >ทำ link เพิ่ม เช่น Homepage, Dashboard page, login(link to backend), logout(link to backend), register(link to backend)
-Backend status >> ยังรันไม่ได้
+Backend status >> รันได้แล้วแต่ยังเข้า login ไม่ได้
+Runserver 
+1.>>>.venv\Scripts\activate
+2.>>>cd CeosoftsPy\backend
+3.>>>python app.py
+4.>>>http://127.0.0.1:5000/login
+
 update to github >>> ok

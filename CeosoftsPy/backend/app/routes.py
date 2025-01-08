@@ -14,7 +14,7 @@ def register():
         flash('Your account has been created!', 'success')
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
-# เพิ่มเส้นทางสำหรับหน้าเข้าสู่ระบบ
+
 @app.route("/login", methods=['GET', 'POST'])
 def login():
     form = LoginForm()
