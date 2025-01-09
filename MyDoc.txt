@@ -61,17 +61,13 @@ CeosoftsPy/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
-│   │   │   └── Home.js
-│   │   │   ├── Dashboard.js
-│   │   │   ├── Sidebar.js
-│   │   │   └── Navbar.js
 │   │   ├── pages/
-│   │   │   └── HomePage.js
 │   │   ├── store/
 │   │   ├── App.js
 │   │   ├── index.js
 │   │   └── service-worker.js
 ├── docker-compose.yml
+<<<<<<< HEAD
 └── README.md
 
 งั้นเรามาเริ่มทำ หน้าแรกกันเลย ช่วยอธิบายว่าต้องมี ไฟล์อะไร อะไรทำงานอย่างไรด้วย
@@ -56040,3 +56036,6 @@ Runserver
 4.>>>http://127.0.0.1:5000/login
 
 update to github >>> ok
+=======
+└── README.md
+>>>>>>> parent of 25da8d4e (login system finish)

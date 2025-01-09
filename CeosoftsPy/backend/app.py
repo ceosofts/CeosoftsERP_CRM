@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
@@ -19,3 +20,5 @@ from app import routes
 
 if __name__ == "__main__":
     app.run(debug=True)
+=======
+>>>>>>> parent of 25da8d4e (login system finish)
