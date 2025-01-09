@@ -56028,6 +56028,7 @@ CeosoftsERP_CRM/
 
 อัพเดทโครงสร้าง 7 jan 2024 20.42
 frontend status >> แสดงเว็บได้ มี navber + sidebar + show drashboard แก้ให้เป็น Homepage >ทำ link เพิ่ม เช่น Homepage, Dashboard page, login(link to backend), logout(link to backend), register(link to backend)
+<<<<<<< HEAD
 Backend status >> รันได้แล้วแต่ยังเข้า login ไม่ได้
 Runserver 
 1.>>>.venv\Scripts\activate
@@ -56039,3 +56040,7 @@ update to github >>> ok
 =======
 └── README.md
 >>>>>>> parent of 25da8d4e (login system finish)
+=======
+Backend status >> ยังรันไม่ได้
+update to github >>> ok
+>>>>>>> parent of 2afaa5a0 (backend cannot go to login page)
